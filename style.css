@@ -2,32 +2,37 @@ body {
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom, #f0f8ff, #e6ffe6); /* Very light blue to light green gradient */
-    color: #333; /* Dark gray text */
+    background: linear-gradient(to bottom, #f0f8ff, #e6ffe6);
+    color: #333;
+    font-weight: 500; /* Slightly bolder font weight */
 }
 
 h1 {
     text-align: center;
-    color: #228b22; /* Forest green */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Subtle text shadow */
-    letter-spacing: 2px; /* Add spacing between letters */
+    color: #228b22;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    letter-spacing: 2px;
+    font-weight: bold; /* Bold heading */
 }
 
 h2 {
-    color: #2e8b57; /* Sea green */
-    border-bottom: 2px dotted #8fbc8f; /* Light dotted line */
+    color: #2e8b57;
+    border-bottom: 2px dotted #8fbc8f;
     padding-bottom: 5px;
     margin-top: 30px;
+    font-weight: bold; /* Bold subheading */
 }
 
 h3 {
-    color: #556b2f; /* Dark olive green */
+    color: #556b2f;
     margin-top: 20px;
+    font-weight: bold; /* Bold sub-subheading */
 }
 
 p {
-    line-height: 1.6;
+    line-height: 1.7; /* Increased line height for better readability */
     color: #444;
+    font-size: 1.15em; /* Slightly larger font size */
 }
 
 .plant-container {
@@ -38,19 +43,19 @@ p {
 }
 
 .plant {
-    background-color: #f8f8f8; /* Light gray background */
-    border: 1px solid #90ee90; /* Light green border */
+    background-color: #f8f8f8;
+    border: 1px solid #90ee90;
     border-radius: 10px;
     padding: 20px;
     margin: 10px;
     width: 300px;
     text-align: center;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
-    transition: transform 0.2s; /* Smooth transform */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
 }
 
 .plant:hover {
-    transform: scale(1.05); /* Slight zoom on hover */
+    transform: scale(1.05);
 }
 
 .plant img {
@@ -64,9 +69,9 @@ p {
     text-align: center;
     padding: 10px;
     margin-top: 30px;
-    background-color: #f0fff0; /* Honeydew background */
-    color: #436b43; /* Darker green */
-    border-top: 1px solid #98fb98; /* Pale green border */
+    background-color: #f0fff0;
+    color: #436b43;
+    border-top: 1px solid #98fb98;
 }
 
 /* Style the upload container */
